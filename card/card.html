@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="card.css">
+</head>
+
+<body>
+    <div class="select">
+        <select name="" id="flores" onchange="Clase()">
+            <option value="" disabled selected>Seleccione la cantidad de Flores</option>
+            <option value="1">1 Flor</option>
+            <option value="2">2 Flores</option>
+            <option value="3">3 Flores</option>
+            <option value="4">4 Flores</option>
+            <option value="5">5 Flores</option>
+            <option value="6">6 Flores</option>
+            <option value="7">7 Flores</option>
+            <option value="8">8 Flores</option>
+            <option value="9">9 Flores</option>
+            <option value="10">10 Flores</option>
+        </select>
+        <br>
+        <select name="" id="estaciones" onchange="tipos()">
+            <option value="" disabled selected>Epoca del año</option>
+            <option value="Otoño">Otoño</option>
+            <option value="Primavera">Primavera</option>
+        </select>
+    </div>
+   
+    <div id="container" class="container">
+        <!--Carta 1-->
+        <div class="carta hidden otoño">
+            <h3>Girasol</h3>
+            <img src="img/otoño.girasol.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Helianthus_annuus">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 2-->
+        <div class="carta hidden primavera">
+            <h3>Hortensia</h3>
+            <img src="img/primavera.hortensia.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Hydrangea">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 3-->
+        <div class="carta hidden otoño">
+            <h3>Gerbera</h3>
+            <img src="img/otoño.gerbera.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Gerbera">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 4-->
+        <div class="carta hidden otoño">
+            <h3>Margarita</h3>
+            <img src="img/otoño.margarita.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Bellis_perennis">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 5-->
+        <div class="carta hidden otoño">
+            <h3>Lirio</h3>
+            <img src="img/otoño.lirio.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Lilium">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 6-->
+        <div class="carta hidden primavera">
+            <h3>Aster</h3>
+            <img src="img/primavera.aster.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Aster">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 7-->
+        <div class="carta hidden primavera">
+            <h3>Lisianthus</h3>
+            <img src="img/primavera.lisianthus.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://www.hola.com/decoracion/20220524210342/cultivar-lisianthus-plantas-exterior-mc/">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 8-->
+        <div class="carta hidden otoño">
+            <h3>Astromelia</h3>
+            <img src="img/otoño.astromelia.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Alstroemeria">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 9-->
+        <div class="carta hidden primavera">
+            <h3>Himpericum</h3>
+            <img src="img/primavera.himpericum.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Alstroemeria">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+        <!--Carta 10-->
+        <div class="carta hidden primavera">
+            <h3>Statice</h3>
+            <img src="img/primavera.statice.jpeg" alt="">
+            <p></p>
+            <div>
+                <a href="https://es.wikipedia.org/wiki/Limonium_sinuatum">
+                    <button>Mas Informacion</button>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script src="card.js"></script>
+</body>
+
+</html>
